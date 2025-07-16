@@ -1,0 +1,17 @@
+Tree obtained:
+Level 0  Extra Spicy = yes	
+Level 1   Size by Inch <= 10.5	Extra Mushroom = yes	
+Level 2  Extra Mushroom = yes	700.0	 Size by Inch <= 10.5	Extra Cheeze = yes	
+Level 3  Extra Cheeze = yes	575.0	700	725.0	900.0	950	
+Level 4  575.0	700	
+
+Test Error = 51.03103630798287
+
+Depth of tree = 15
+Depth of tree for which the model overfits = 15
+Pruned Tree:
+Level 0  Extra Spicy = yes	
+Level 1   Size by Inch <= 10.5	Extra Mushroom = yes	
+Level 2  600.0	700.0	716.6666666666666	916.6666666666666	
+Test error for pruned tree = 23.57022603955157
+Depth of the pruned tree = 7

@@ -1,0 +1,40 @@
+Directions to run the code:
+
+For question 1:
+
+1) In the terminal execute the following command:
+	python3 q1.py > output_q1.txt
+
+2) The results of the code are stored in output_q1.txt
+
+3) The directory in which the file q1.py is stored, should also have
+   the file abalone.data.   
+
+4) The graphs are obtained as pop-ups. Please close the pop-up after viewing the graph so that the code continues to execute. 
+
+5) Libraries required are as follows:
+	pandas,numpy,matplotlib,sklearn
+
+6) The folder graphs_q1 contains the images of graphs provided in report.
+
+7) The folder output_txt_q1 contains the .txt files of the outputs provided
+   in report.
+
+For question 2:
+
+1) Enter the following command in your terminal-
+	python3 -W ignore q2.py > output_q2.txt
+   The results of the code are stored in output_q2.txt
+   (-W ignore just ignores the warnings we get as mentioned in the report)	
+2) The following libraries are required in you python environment to run this code-
+	pandas, numpy, matplotlib, math, sklern, collections
+
+3) The folder should also contain the following files for execution of the .py file-
+	abalone.data
+
+4) When the pyplot graph pops up, the code is paused. To resume the flow of execution, you need to manually cancel the pyplot graph pop-up
+
+5) The folder graphs_q1 contains the images of graphs provided in report.
+
+6) The folder output_txt_q1 contains the .txt files of the outputs provided
+   in report.

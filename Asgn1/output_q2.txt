@@ -1,0 +1,15 @@
+
+Patients' Dataset
+The following row numbers have outlying features:
+           Col1      Col2       Col3  ...      Col11    Col12  Class_att
+115  129.834041  8.404475  48.384057  ... -34.202073  27.5144          0
+
+[1 rows x 13 columns]
+Accuracy1 (simple case, 70% training, 30% testing)
+0.8279569892473119
+Accuracy2 (Average accuracy of cross-validation (within the training set itself))
+0.758985200845666
+Accuracy3 (best split of cross validation as training, 30% testing)
+0.8172043010752689
+Accuracy4 (70% training, 30% testing, with Laplace correction)
+0.8172043010752689

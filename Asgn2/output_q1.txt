@@ -1,0 +1,23 @@
+Value of k = 2
+NMI value = 0.1217315098678864
+
+Value of k = 3
+NMI value = 0.1571277640376759
+
+Value of k = 4
+NMI value = 0.16481761867824635
+
+Value of k = 5
+NMI value = 0.16004596549617664
+
+Value of k = 6
+NMI value = 0.16811644295491504
+
+Value of k = 7
+NMI value = 0.1733586008885129
+
+Value of k = 8
+NMI value = 0.16737893068424106
+
+The value of k for which NMI is maximum = 7
+Corresponding maximum NMI value = 0.1733586008885129

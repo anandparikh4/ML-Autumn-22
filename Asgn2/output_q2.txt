@@ -1,0 +1,39 @@
+
+Abalone Dataset
+Linear SVC accuracy score:
+0.2822966507177033
+Quadratic SVC accuracy score:
+0.2679425837320574
+Radial Basis Function SVC accuracy:
+0.284688995215311
+1-layer MLP accuracy score:
+0.27631578947368424
+2-layer MLP accuracy score:
+0.28827751196172247
+[0.2619617224880383, 0.26913875598086123, 0.29066985645933013, 0.25, 0.2117224880382775]
+Backward Elimination begins:
+Initial accuracy
+0.2942583732057416
+Max accuracy achieved on removing feature : diameter
+0.3014354066985646
+Index(['sex', 'length', 'diameter', 'height', 'whole_weight', 'shucked_weight',
+       'viscera_weight', 'shell_weight'],
+      dtype='object')
+Feature removed : diameter
+Max accuracy achieved on removing feature : sex
+0.30861244019138756
+Index(['sex', 'length', 'height', 'whole_weight', 'shucked_weight',
+       'viscera_weight', 'shell_weight'],
+      dtype='object')
+Feature removed : sex
+Max accuracy achieved on removing feature : shell_weight
+0.3026315789473684
+Index(['length', 'height', 'whole_weight', 'shucked_weight', 'viscera_weight',
+       'shell_weight'],
+      dtype='object')
+Feature : shell_weight not removed
+Backward Elimination ends
+Best features selected by backward elimination are : 
+['length', 'height', 'whole_weight', 'shucked_weight', 'viscera_weight', 'shell_weight']
+Ensemble Learning accuracy score (using max-vote technique) :
+0.27870813397129185

@@ -1,0 +1,50 @@
+C:\Users\Admin\.pyenv\pyenv-win\versions\3.7.9\python.exe "C:/Users/Admin/Desktop/Sem 5/ML/Assignment 2/Supervised_Classifier/Supervised_Classifier.py"
+
+Abalone Dataset
+
+Linear SVC accuracy score:
+0.2727272727272727
+
+Quadratic SVC accuracy score:
+0.24282296650717702
+
+Radial Basis Function SVC accuracy:
+0.2715311004784689
+
+1-layer MLP accuracy score:
+0.2811004784688995
+
+2-layer MLP accuracy score:
+0.2811004784688995
+
+Learning Rates : [0.1,0.01,0.001,0.0001,0.00001]
+Accuracies : [0.25717703349282295, 0.27631578947368424, 0.2715311004784689, 0.24641148325358853, 0.18660287081339713]
+
+Backward Elimination begins:
+Initial accuracy
+0.27751196172248804
+
+Max accuracy achieved on removing feature : sex
+0.29545454545454547
+Feature removed : sex
+
+Max accuracy achieved on removing feature : length
+0.29545454545454547
+Feature removed : length
+
+Max accuracy achieved on removing feature : viscera_weight
+0.29904306220095694
+Feature removed : viscera_weight
+
+Max accuracy achieved on removing feature : shell_weight
+0.29545454545454547
+Feature : shell_weight not removed
+Backward Elimination ends
+
+Best features selected by backward elimination are : 
+['diameter', 'height', 'whole_weight', 'shucked_weight', 'shell_weight']
+
+Ensemble Learning accuracy score (using max-vote technique) :
+0.2703349282296651
+
+Process finished with exit code 0

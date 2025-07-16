@@ -1,0 +1,7 @@
+The following commands are to be used while running the codes for q1.py and q2.py respectively:
+
+q1.py: The file "Train_D_Tree.csv" should be in the same directory as that of q1.py. Then in the terminal, type the command python3 q1.py > output_q1.txt
+
+q2.py: The file "Train_D_Bayesian.csv: should be in the same directory as that of q2.py. Then in the terminal, type the command python3 q2.py > output_q2.txt
+
+
